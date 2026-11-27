@@ -8,8 +8,8 @@
   "use strict";
   var DECK = "2";
   var WORKER = "https://ae-sliding-in.billiethomasonsound.workers.dev";
-  var PRODUCT_KEY = "";        /* Payhip product key — set when the product exists */
-  var BUY_URL = "";            /* Payhip checkout URL — empty keeps the honest "soon" state */
+  var PRODUCT_KEY = "41tcC";   /* Payhip product key — Sliding In 2 */
+  var BUY_URL = "https://payhip.com/b/41tcC"; /* Sliding In 2 checkout */
   var FREE_SLUGS = ["booksreading", "canyoudescribe", "doyouknowhowto", "workjobs"];
   var unlocked = false;
   var granted = {};
